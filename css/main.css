@@ -1,0 +1,49 @@
+/* WORKSPACE */
+.led {
+    position: relative;
+    height: 35px;
+    width: 35px;
+    background-color: lightgray;
+    float: left;
+    margin: 10px;
+    border-radius: 100%;
+    border: 1px solid gray;
+}
+
+.led0, .led7, .led56, .led63 {
+    background-color: #fff;
+    border: none;
+}
+
+.line {
+    clear: both;
+}
+
+#workspace {
+    clear: both;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+/* COLORS */
+.colors {
+    left: 30px;
+    position: relative;
+    width: 500px;
+}
+
+.color {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin: 10px;
+    border: 1px dashed gray;
+}
+
+.current-color {
+    border: 1px solid black;
+}
+
+#color-wheel {
+    float: left;
+}

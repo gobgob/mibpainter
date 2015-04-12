@@ -1,0 +1,26 @@
+{
+  "name": "mibPainter",
+  "version": "0.0.0",
+  "authors": [
+    "fabien0102 <fabien0102@planee.fr>"
+  ],
+  "description": "Painter tool for minion rvb eyes",
+  "main": "index.html",
+  "keywords": [
+    "painter"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "colorwheel": "~1.0.0",
+    "jquery": "2.1.0",
+    "bootstrap": "~3.3.4",
+    "raphael": "2.1.2"
+  }
+}

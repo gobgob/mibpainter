@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MIB Eyes Painter</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+    <a class="navbar-brand" href="#">MIB Eyes Painter</a>
+</nav>
+<div class="container text-center">
+    <div class="jumbotron" style="height:240px">
+        <div id="color-wheel"></div>
+        <div class="colors">
+            <div class="color current-color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+            <div class="color"></div>
+        </div>
+    </div>
+    <div id="workspace"></div>
+
+    <button type="button" class="btn btn-success" data-ui="export">Export</button>
+    <button type="button" class="btn btn-info" data-ui="reset">Reset</button>
+</div>
+<!-- Libraries -->
+<script src="js/jquery.min.js"></script>
+<script src="js/raphael-min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/colorwheel.js"></script>
+
+<!-- JS -->
+<script src="js/main.js"></script>
+
+</body>
+</html>

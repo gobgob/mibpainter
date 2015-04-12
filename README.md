@@ -1,11 +1,8 @@
-# MIB Painter
+# MIB Eyes Painter
 
-MIB Painter is a HTML tool useful to generate a ugly object with a beautiful interface ;)
+MIB Eyes Painter is a HTML tool useful to generate a ugly object with a beautiful interface ;)
 
-## How to start
-
-* Clone the repo - `git clone git@github.com:gobgob/mibpainter.git`
-* Install dependencies - `bower install`
+http://gobgob-technology.fr/mibpainter/
 
 ## How to play
 
@@ -16,3 +13,7 @@ MIB Painter is a HTML tool useful to generate a ugly object with a beautiful int
 * Open navigator console
 * Click on `export` button
 * See result into console ;)
+
+## Notes
+
+All dependencies are copy/paste into `/js` and `css` for easy use (no `bower` require to play :smirk: )

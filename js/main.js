@@ -78,7 +78,7 @@ $(document).ready(function () {
             output += (i % 8 === 7) ? "},\n" : ",";
         }
         // Remove last comma
-        output = output.substring(0, output.length - 1);
+        output = output.substring(0, output.length - 2);
 
         // Output this into console
         console.log(output);

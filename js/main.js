@@ -75,7 +75,7 @@ $(document).ready(function () {
             color = $(".led" + i).data("color");
             if (i % 8 === 0) output += "{";
             output += color ? "0x" + rgb2hex(color) : "0x000000";
-            output += (i % 8 === 7) ? "}," : ",";
+            output += (i % 8 === 7) ? "},\n" : ",";
         }
         // Remove last comma
         output = output.substring(0, output.length - 1);

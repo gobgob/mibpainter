@@ -10,7 +10,7 @@
     border: 1px solid gray;
 }
 
-.led0, .led7, .led56, .led63 {
+.led0, .led1, .led8, .led6, .led7, .led15, .led48, .led56, .led57, .led55, .led62, .led63 {
     background-color: #fff;
     border: none;
 }

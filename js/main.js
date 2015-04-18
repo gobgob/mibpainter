@@ -5,12 +5,7 @@
  * @returns {boolean}
  */
 function canBeUpdate($el) {
-    var ledsCorner = ["led0", "led7", "led56", "led63"];
-    var test = true;
-    for (var led in ledsCorner) {
-        if ($el.hasClass(ledsCorner[led])) test = false;
-    }
-    return test;
+    return !(/none/.exec($el.css("border")));
 }
 
 /**

@@ -89,7 +89,7 @@ $(document).ready(function () {
         for (var i = 0; i < 64; i++) {
             var $led = $(".led" + i);
             if (!canBeUpdate($led)) continue;
-            $led.css("backgroundColor", "lightgray");
+            $led.css("backgroundColor", "black");
             $led.data("color", null);
         }
     });

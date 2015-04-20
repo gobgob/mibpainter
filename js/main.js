@@ -32,6 +32,7 @@ $(document).ready(function () {
     });
 
     colorWheel.color("white");
+    $currentColor.css("backgroundColor", colorWheel.color());
 
     // Generate LEDs
     var ledNum = 0;
